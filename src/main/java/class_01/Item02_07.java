@@ -8,6 +8,9 @@ public class Item02_07 {
         method(5L);
         method(Long.valueOf(5));
 
+        method(new A());
+        method(new B());
+
         Long l = 1L;
         test(1L);
         test(l);
@@ -41,6 +44,15 @@ public class Item02_07 {
 //        return 1L;
 //    }
 
+    public static Object method(A a) {
+        System.out.println("A");
+        return null;
+    }
+
+    public static Object method(B b) {
+        System.out.println("B");
+        return null;
+    }
 
     public static void test(long l) {
         System.out.println(l);
