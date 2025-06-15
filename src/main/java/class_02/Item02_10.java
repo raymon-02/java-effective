@@ -1,4 +1,4 @@
-package class_01;
+package class_02;
 
 public class Item02_10 {
 
