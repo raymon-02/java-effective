@@ -1,28 +1,19 @@
 package class_02;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Item03_03 {
 
     public static void main(String[] args) {
-        Set<A> set = new HashSet<>();
-        A a = new A();
-        set.add(a);
-        System.out.println(set.contains(a));
+        Map<String, Integer> map = new HashMap<>();
+        map.put("1", 1);
 
-        A copy = new A();
-        System.out.println(set.contains(copy));
+        System.out.println(map.containsKey("1"));
+        System.out.println(map.containsKey(null));
 
-        a.i = 20;
-        System.out.println(set.contains(a));
-
-
-        for (int i = 1; i < 17; i++) {
-            a.i = i;
-            if (set.contains(a)) {
-                System.out.println("i=" + i);
-            }
-        }
+        map.put(null, 2);
+        System.out.println(map.containsKey("1"));
+        System.out.println(map.containsKey(null));
     }
 }
