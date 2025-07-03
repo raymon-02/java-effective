@@ -1,4 +1,4 @@
-package class_03;
+package class_04;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,10 +10,13 @@ public class Item05_05 {
         List<Integer> ints = new ArrayList<>();
         List<Number> numbers = new ArrayList<>();
         List<?> wNumbers = new ArrayList<>();
+        List<?> wIntegers = new ArrayList<>();
 
         wNumbers = numbers;
         wNumbers = ints;
         wNumbers = objs;
+        wNumbers = wIntegers;
+        wIntegers = wNumbers;
 
 //        wNumbers.add(5);
         wNumbers.add(null);
