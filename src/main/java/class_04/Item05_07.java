@@ -18,14 +18,14 @@ public class Item05_07 {
     }
 
     private static <T extends Comparable<T>> T max(List<T> list) {
-        return list.getFirst();
+        return list.get(0);
     }
 
     private static <T extends Comparable<T>> T max2(List<? extends T> list) {
-        return list.getFirst();
+        return list.get(0);
     }
 
     private static <T extends Comparable<? super T>> T max3(List<? extends T> list) {
-        return list.getFirst();
+        return list.get(0);
     }
 }
