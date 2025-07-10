@@ -12,10 +12,7 @@ public class Item10_03 {
         List<String> list = new ArrayList<>();
 
         method(() -> Files.write(Paths.get(""), list));
-//        method(() -> { Files.write(Paths.get(""), list) });
-        method(() -> {
-            return Files.write(Paths.get(""), list);
-        });
+//        method(() -> { Files.write(Paths.get(""), list); });
     }
 
     private static void method(Runnable runnable) {
