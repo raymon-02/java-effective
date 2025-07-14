@@ -2,7 +2,7 @@ package class_07;
 
 public class Item11_04 {
 
-    private A global;
+    private A global = new A();
 
     public static void main(String[] args) throws InterruptedException {
         Item11_04 item = new Item11_04();

@@ -6,7 +6,6 @@ public class Item11_03 {
 //    private volatile A a;
 
     private B b;
-//    private volatile B b;
 
     public static void main(String[] args) throws InterruptedException {
         Item11_03 item = new Item11_03();
