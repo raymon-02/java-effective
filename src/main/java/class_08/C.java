@@ -1,8 +1,9 @@
-package class_07;
+package class_08;
 
 public class C {
     private int i;
     private volatile int j;
+    private volatile int h;
 
     public C() {
         this.i = 42;
@@ -20,7 +21,15 @@ public class C {
         return j;
     }
 
-    public synchronized void setJ(int j) {
+    public void setJ(int j) {
         this.j = j;
+    }
+
+    public int getH() {
+        return h;
+    }
+
+    public void setH(int h) {
+        this.h = h;
     }
 }

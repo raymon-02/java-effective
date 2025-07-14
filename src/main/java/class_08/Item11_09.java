@@ -1,11 +1,9 @@
-package class_07;
+package class_08;
 
-public class Item11_07 {
-
-    private volatile C c = new C();
+public class Item11_09 {
 
     public static void main(String[] args) throws InterruptedException {
-        Item11_07 item = new Item11_07();
+        Item11_09 item = new Item11_09();
 
         D d1 = new D(1);
         D d2 = new D(2);

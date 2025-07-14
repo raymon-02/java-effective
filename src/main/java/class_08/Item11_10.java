@@ -1,6 +1,6 @@
-package class_07;
+package class_08;
 
-public class Item11_08 {
+public class Item11_10 {
 
     private A a;
     private volatile A a1;
@@ -8,7 +8,7 @@ public class Item11_08 {
 
     public static void main(String[] args) {
         System.out.println("start");
-        Item11_08 item = new Item11_08();
+        Item11_10 item = new Item11_10();
         A a = item.get();
     }
 

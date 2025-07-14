@@ -1,4 +1,4 @@
-package class_07;
+package class_08;
 
 public class D {
     public final int id;
